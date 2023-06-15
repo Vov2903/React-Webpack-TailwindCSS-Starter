@@ -7,4 +7,3 @@ module.exports = (envVars) => {
   const mergedConfig = merge(commonConfig, envConfig)
   return mergedConfig
 }
-        
